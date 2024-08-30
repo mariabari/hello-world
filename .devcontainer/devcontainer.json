@@ -1,0 +1,23 @@
+{
+    "name": "hello_world",
+    "build": {
+        "dockerfile": "../Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            },
+            "extensions": [
+                "ms-python.python",      // Python extension
+                "ms-python.pylance",     // Pylance extension
+                "ms-toolsai.jupyter",    // Jupyter extension
+                "ms-toolsai.python",     // Python extension (alternative)
+                "ms-python.vscode-pylance", // Pylance
+                "ms-toolsai.code-runner", // Code Runner
+                "ms-python.black-formatter", // Black Formatter
+                "ms-python.mypy"         // Mypy type checker
+            ]
+        }
+    }
+}
